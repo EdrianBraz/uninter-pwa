@@ -45,5 +45,15 @@
   <body>
     <noscript>Você precisa habilitar JavaScript para executar este aplicativo.</noscript>
     <div id="root"></div>
+    <style>
+      /* Safe area para iPhone com notch */
+      body {
+        padding-top: env(safe-area-inset-top, 15px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
   </body>
 </html>
