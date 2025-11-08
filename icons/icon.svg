@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="#004B8D"/>
+  
+  <!-- Graduation Cap Icon -->
+  <g transform="translate(96, 140)">
+    <!-- Cap base -->
+    <path d="M160 80L320 140L160 200L0 140L160 80Z" fill="#4D9FFF"/>
+    
+    <!-- Cap top -->
+    <path d="M160 80L320 140V180L160 240L0 180V140L160 80Z" fill="#FFFFFF" opacity="0.9"/>
+    
+    <!-- Tassel -->
+    <circle cx="320" cy="140" r="12" fill="#FFD700"/>
+    <line x1="320" y1="152" x2="320" y2="180" stroke="#FFD700" stroke-width="4"/>
+    <circle cx="320" cy="180" r="8" fill="#FFD700"/>
+  </g>
+  
+  <!-- Letter "U" -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#FFFFFF" text-anchor="middle">U</text>
+</svg>

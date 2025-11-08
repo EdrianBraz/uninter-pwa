@@ -1,0 +1,262 @@
+{
+  "ru": "018103",
+  "name": "Maria Eduarda de Assis Silva",
+  "password": "29121999",
+  "cpf": "110.947.549-78",
+  "campus": "Campus Ingleses (Florianópolis, SC) (EaD)",
+  "enrollmentDate": "15/02/2025",
+  "cardValidity": "30/06/2026",
+  "course": {
+    "id": "pos-psicologia-tcc",
+    "name": "Psicologia Clínica: Terapia Cognitivo Comportamental",
+    "type": "POS_GRADUACAO",
+    "duration": "8 meses",
+    "modality": "A Distância",
+    "totalHours": 510,
+    "completedHours": 180,
+    "disciplines": [
+      {
+        "id": "psicofarmacologia",
+        "name": "Psicofarmacologia",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2025",
+        "averageGrade": 92,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 92
+      },
+      {
+        "id": "psicopatologia",
+        "name": "Psicopatologia",
+        "type": "REGULAR",
+        "hours": 75,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2025",
+        "averageGrade": 88,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 88
+      },
+      {
+        "id": "tept",
+        "name": "Transtornos do Estresse Pós-Traumático (TEPT)",
+        "type": "REGULAR",
+        "hours": 45,
+        "status": "CURSANDO",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 85,
+        "finalResult": null
+      },
+      {
+        "id": "bases-tcc",
+        "name": "Bases Epistemológicas, Teóricas e Empíricas da TCC",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "CURSANDO",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 90,
+        "finalResult": null
+      },
+      {
+        "id": "cognicao-funcoes",
+        "name": "Cognição, Atenção e Funções Executivas",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "AGUARDANDO_NOTA",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 100,
+        "finalResult": null
+      },
+      {
+        "id": "emocao-memoria",
+        "name": "Emoção, Aprendizado e Memória",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "AGUARDANDO_NOTA",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 95,
+        "finalResult": null
+      },
+      {
+        "id": "neurociencia",
+        "name": "Neurociência e Comportamento Humano",
+        "type": "INTRODUTORIO",
+        "hours": 60,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2025",
+        "averageGrade": 94,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 94
+      }
+    ]
+  },
+  "financialStatus": {
+    "status": "ADIMPLENTE",
+    "invoices": [
+      {
+        "id": "inv-001",
+        "type": "Mensalidade",
+        "dueDate": "10/10/2025",
+        "amount": 450.00,
+        "status": "PAGO"
+      }
+    ]
+  },
+  "materials": {
+    "sent": [
+      {
+        "id": "mat-maria-001",
+        "disciplineId": "tept",
+        "disciplineName": "Transtornos do Estresse Pós-Traumático (TEPT)",
+        "title": "Manual Diagnóstico - TEPT",
+        "type": "PDF",
+        "size": "5.8 MB",
+        "uploadDate": "12/09/2025",
+        "url": "/materials/manual-tept.pdf"
+      },
+      {
+        "id": "mat-maria-002",
+        "disciplineId": "bases-tcc",
+        "disciplineName": "Bases Epistemológicas, Teóricas e Empíricas da TCC",
+        "title": "Apostila - Fundamentos da TCC",
+        "type": "PDF",
+        "size": "10.2 MB",
+        "uploadDate": "18/09/2025",
+        "url": "/materials/fundamentos-tcc.pdf"
+      },
+      {
+        "id": "mat-maria-003",
+        "disciplineId": "cognicao-funcoes",
+        "disciplineName": "Cognição, Atenção e Funções Executivas",
+        "title": "Artigos Científicos - Neuropsicologia",
+        "type": "ZIP",
+        "size": "15.4 MB",
+        "uploadDate": "22/09/2025",
+        "url": "/materials/artigos-neuropsicologia.zip"
+      }
+    ],
+    "books": [
+      {
+        "id": "book-maria-001",
+        "disciplineId": "bases-tcc",
+        "disciplineName": "Bases Epistemológicas, Teóricas e Empíricas da TCC",
+        "title": "Terapia Cognitivo-Comportamental: Teoria e Prática",
+        "author": "Judith S. Beck",
+        "publisher": "Artmed",
+        "year": 2022,
+        "isbn": "978-8582715208",
+        "coverUrl": "/books/tcc-beck.jpg"
+      },
+      {
+        "id": "book-maria-002",
+        "disciplineId": "psicopatologia",
+        "disciplineName": "Psicopatologia",
+        "title": "Manual de Psicopatologia e Psiquiatria Clínica",
+        "author": "Adriano Vaz Serra",
+        "publisher": "Climepsi Editores",
+        "year": 2021,
+        "isbn": "978-9727969890",
+        "coverUrl": "/books/psicopatologia.jpg"
+      },
+      {
+        "id": "book-maria-003",
+        "disciplineId": "neurociencia",
+        "disciplineName": "Neurociência e Comportamento Humano",
+        "title": "Neurociência Cognitiva",
+        "author": "Michael Gazzaniga",
+        "publisher": "Artmed",
+        "year": 2018,
+        "isbn": "978-8582714447",
+        "coverUrl": "/books/neurociencia-cognitiva.jpg"
+      }
+    ]
+  },
+  "liveClasses": [
+    {
+      "id": "lc-maria-001",
+      "disciplineId": "tept",
+      "disciplineName": "Transtornos do Estresse Pós-Traumático (TEPT)",
+      "topic": "Intervenções em TEPT - Casos Clínicos",
+      "instructor": "Profa. Dra. Fernanda Lima",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "date": "16/11/2025",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-maria-001"
+    },
+    {
+      "id": "lc-maria-002",
+      "disciplineId": "bases-tcc",
+      "disciplineName": "Bases Epistemológicas, Teóricas e Empíricas da TCC",
+      "topic": "Técnicas de Reestruturação Cognitiva",
+      "instructor": "Prof. Dr. Paulo Henrique Santos",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "date": "19/11/2025",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-maria-002"
+    }
+  ],
+  "otherLiveClasses": [
+    {
+      "id": "lc-maria-other-001",
+      "courseName": "Psicologia Clínica",
+      "topic": "Atendimento Online: Desafios e Possibilidades",
+      "instructor": "Profa. Dra. Juliana Rodrigues",
+      "startTime": "18:30",
+      "endTime": "20:00",
+      "date": "21/11/2025",
+      "status": "open",
+      "meetingUrl": "/live-class/lc-maria-other-001"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-001",
+      "category": "ATENDIMENTO_ONLINE",
+      "unreadCount": 0
+    },
+    {
+      "id": "m-002",
+      "category": "TUTORIA",
+      "unreadCount": 2
+    },
+    {
+      "id": "m-003",
+      "category": "MENSAGENS",
+      "unreadCount": 1
+    },
+    {
+      "id": "m-004",
+      "category": "AVISOS",
+      "unreadCount": 3
+    }
+  ],
+  "agendaEvents": [
+    {
+      "id": "ag-maria-001",
+      "type": "ENTREGA",
+      "title": "Entrega: Trabalho de TCC",
+      "description": "Trabalho sobre técnicas de reestruturação cognitiva",
+      "date": "05/11/2025"
+    },
+    {
+      "id": "ag-maria-002",
+      "type": "PROVA",
+      "title": "Prova: Psicofarmacologia",
+      "description": "Avaliação final da disciplina",
+      "date": "12/11/2025"
+    }
+  ]
+}
