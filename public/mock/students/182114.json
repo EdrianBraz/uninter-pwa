@@ -1,0 +1,314 @@
+{
+  "ru": "182114",
+  "name": "Edrian Nidio Braz",
+  "password": "13021994",
+  "cpf": "094.496.419-27",
+  "campus": "Campus Sitio Cercado (Curitiba, PR) (EaD)",
+  "enrollmentDate": "10/03/2025",
+  "cardValidity": "30/12/2026",
+  "course": {
+    "id": "mba-ciencia-dados-ia",
+    "name": "MBA em Ciências de Dados e Inteligência Artificial",
+    "type": "POS_GRADUACAO",
+    "duration": "8 meses",
+    "modality": "A Distância",
+    "totalHours": 480,
+    "completedHours": 240,
+    "disciplines": [
+      {
+        "id": "fundamentos-ia",
+        "name": "Fundamentos de Inteligência Artificial",
+        "type": "INTRODUTORIO",
+        "hours": 60,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2025",
+        "averageGrade": 95,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 95
+      },
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning e Algoritmos",
+        "type": "REGULAR",
+        "hours": 80,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2025",
+        "averageGrade": 90,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 90
+      },
+      {
+        "id": "deep-learning",
+        "name": "Deep Learning e Redes Neurais",
+        "type": "REGULAR",
+        "hours": 80,
+        "status": "APR_MEDIA",
+        "module": "Módulo A2/2025",
+        "averageGrade": 85,
+        "examGrade": 0,
+        "attendance": 95,
+        "finalResult": 85
+      },
+      {
+        "id": "big-data",
+        "name": "Big Data e Processamento Distribuído",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "CURSANDO",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 80,
+        "finalResult": null
+      },
+      {
+        "id": "data-science",
+        "name": "Ciência de Dados e Analytics",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "CURSANDO",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 85,
+        "finalResult": null
+      },
+      {
+        "id": "nlp",
+        "name": "Processamento de Linguagem Natural",
+        "type": "REGULAR",
+        "hours": 60,
+        "status": "AGUARDANDO_NOTA",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 100,
+        "finalResult": null
+      },
+      {
+        "id": "computer-vision",
+        "name": "Visão Computacional",
+        "type": "OPTATIVA",
+        "hours": 40,
+        "status": "AGUARDANDO_NOTA",
+        "module": "Módulo A2/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 90,
+        "finalResult": null
+      },
+      {
+        "id": "estatistica",
+        "name": "Estatística Aplicada",
+        "type": "INTRODUTORIO",
+        "hours": 40,
+        "status": "DISPENSADA",
+        "module": "Módulo A1/2025",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": null,
+        "finalResult": null
+      }
+    ]
+  },
+  "financialStatus": {
+    "status": "INADIMPLENTE",
+    "invoices": [
+      {
+        "id": "inv-101",
+        "type": "Mensalidade",
+        "dueDate": "10/09/2025",
+        "amount": 580.00,
+        "status": "VENCIDO"
+      },
+      {
+        "id": "inv-102",
+        "type": "Mensalidade",
+        "dueDate": "10/10/2025",
+        "amount": 580.00,
+        "status": "EM_ABERTO"
+      }
+    ]
+  },
+  "materials": {
+    "sent": [
+      {
+        "id": "mat-001",
+        "disciplineId": "big-data",
+        "disciplineName": "Big Data e Processamento Distribuído",
+        "title": "Apostila - Fundamentos de Big Data",
+        "type": "PDF",
+        "size": "12.5 MB",
+        "uploadDate": "15/09/2025",
+        "url": "/materials/big-data-fundamentos.pdf"
+      },
+      {
+        "id": "mat-002",
+        "disciplineId": "data-science",
+        "disciplineName": "Ciência de Dados e Analytics",
+        "title": "Slides - Análise Exploratória de Dados",
+        "type": "PDF",
+        "size": "8.3 MB",
+        "uploadDate": "20/09/2025",
+        "url": "/materials/analise-exploratoria.pdf"
+      },
+      {
+        "id": "mat-003",
+        "disciplineId": "deep-learning",
+        "disciplineName": "Deep Learning e Redes Neurais",
+        "title": "Notebook - Implementação CNN",
+        "type": "IPYNB",
+        "size": "2.1 MB",
+        "uploadDate": "10/09/2025",
+        "url": "/materials/cnn-implementation.ipynb"
+      },
+      {
+        "id": "mat-004",
+        "disciplineId": "nlp",
+        "disciplineName": "Processamento de Linguagem Natural",
+        "title": "Dataset - Corpus de Textos em Português",
+        "type": "ZIP",
+        "size": "45.7 MB",
+        "uploadDate": "05/09/2025",
+        "url": "/materials/corpus-pt.zip"
+      }
+    ],
+    "books": [
+      {
+        "id": "book-001",
+        "disciplineId": "machine-learning",
+        "disciplineName": "Machine Learning e Algoritmos",
+        "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+        "author": "Aurélien Géron",
+        "publisher": "O'Reilly Media",
+        "year": 2019,
+        "isbn": "978-1492032649",
+        "coverUrl": "/books/hands-on-ml.jpg"
+      },
+      {
+        "id": "book-002",
+        "disciplineId": "deep-learning",
+        "disciplineName": "Deep Learning e Redes Neurais",
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "publisher": "MIT Press",
+        "year": 2016,
+        "isbn": "978-0262035613",
+        "coverUrl": "/books/deep-learning.jpg"
+      },
+      {
+        "id": "book-003",
+        "disciplineId": "data-science",
+        "disciplineName": "Ciência de Dados e Analytics",
+        "title": "Python for Data Analysis",
+        "author": "Wes McKinney",
+        "publisher": "O'Reilly Media",
+        "year": 2022,
+        "isbn": "978-1491957660",
+        "coverUrl": "/books/python-data-analysis.jpg"
+      }
+    ]
+  },
+  "liveClasses": [
+    {
+      "id": "lc-001",
+      "disciplineId": "big-data",
+      "disciplineName": "Big Data e Processamento Distribuído",
+      "topic": "Introdução ao Hadoop e MapReduce",
+      "instructor": "Prof. Dr. Carlos Silva",
+      "startTime": "19:30",
+      "endTime": "21:00",
+      "date": "15/11/2025",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-001"
+    },
+    {
+      "id": "lc-002",
+      "disciplineId": "data-science",
+      "disciplineName": "Ciência de Dados e Analytics",
+      "topic": "Visualização de Dados com Python",
+      "instructor": "Profa. Dra. Ana Paula Costa",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "date": "18/11/2025",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-002"
+    },
+    {
+      "id": "lc-003",
+      "disciplineId": "nlp",
+      "disciplineName": "Processamento de Linguagem Natural",
+      "topic": "Modelos de Linguagem e Transformers",
+      "instructor": "Prof. Dr. Roberto Mendes",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "date": "22/11/2025",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-003"
+    }
+  ],
+  "otherLiveClasses": [
+    {
+      "id": "lc-other-001",
+      "courseName": "Especialização em IA",
+      "topic": "Ética em Inteligência Artificial",
+      "instructor": "Profa. Dra. Mariana Santos",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "date": "20/11/2025",
+      "status": "open",
+      "meetingUrl": "/live-class/lc-other-001"
+    },
+    {
+      "id": "lc-other-002",
+      "courseName": "Workshop Geral",
+      "topic": "Carreira em Data Science",
+      "instructor": "Prof. João Almeida",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "date": "25/11/2025",
+      "status": "open",
+      "meetingUrl": "/live-class/lc-other-002"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-001",
+      "category": "ATENDIMENTO_ONLINE",
+      "unreadCount": 0
+    },
+    {
+      "id": "m-002",
+      "category": "TUTORIA",
+      "unreadCount": 0
+    },
+    {
+      "id": "m-003",
+      "category": "MENSAGENS",
+      "unreadCount": 4
+    },
+    {
+      "id": "m-004",
+      "category": "AVISOS",
+      "unreadCount": 7
+    }
+  ],
+  "agendaEvents": [
+    {
+      "id": "ag-001",
+      "type": "PROVA",
+      "title": "Prova: Deep Learning e Redes Neurais",
+      "description": "Prova final da disciplina de Deep Learning",
+      "date": "15/11/2025"
+    },
+    {
+      "id": "ag-002",
+      "type": "ENTREGA",
+      "title": "Entrega: Projeto de NLP",
+      "description": "Projeto final de Processamento de Linguagem Natural",
+      "date": "20/11/2025"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    {
+      "ru": "018103",
+      "name": "Maria Eduarda de Assis Silva",
+      "password": "29121999",
+      "filename": "018103.json"
+    },
+    {
+      "ru": "182114",
+      "name": "Edrian Nidio Braz",
+      "password": "13021994",
+      "filename": "182114.json"
+    }
+  ]
+}
