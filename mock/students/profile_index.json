@@ -11,6 +11,12 @@
       "name": "Edrian Nidio Braz",
       "password": "13021994",
       "filename": "182114.json"
+    },
+    {
+      "ru": "999999",
+      "name": "Aluno de Demonstração",
+      "password": "demo123",
+      "filename": "999999.json"
     }
   ]
 }

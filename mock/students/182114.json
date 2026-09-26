@@ -4,8 +4,9 @@
   "password": "13021994",
   "cpf": "094.496.419-27",
   "campus": "Campus Sitio Cercado (Curitiba, PR) (EaD)",
-  "enrollmentDate": "10/03/2025",
+  "enrollmentDate": "10/03/2026",
   "cardValidity": "30/12/2026",
+  "demoMode": false,
   "course": {
     "id": "mba-ciencia-dados-ia",
     "name": "MBA em Ciências de Dados e Inteligência Artificial",
@@ -21,7 +22,7 @@
         "type": "INTRODUTORIO",
         "hours": 60,
         "status": "CONCLUIDA",
-        "module": "Módulo A1/2025",
+        "module": "Módulo A1/2026",
         "averageGrade": 95,
         "examGrade": 0,
         "attendance": 100,
@@ -33,7 +34,7 @@
         "type": "REGULAR",
         "hours": 80,
         "status": "CONCLUIDA",
-        "module": "Módulo A1/2025",
+        "module": "Módulo A1/2026",
         "averageGrade": 90,
         "examGrade": 0,
         "attendance": 100,
@@ -45,7 +46,7 @@
         "type": "REGULAR",
         "hours": 80,
         "status": "APR_MEDIA",
-        "module": "Módulo A2/2025",
+        "module": "Módulo A2/2026",
         "averageGrade": 85,
         "examGrade": 0,
         "attendance": 95,
@@ -57,7 +58,7 @@
         "type": "REGULAR",
         "hours": 60,
         "status": "CURSANDO",
-        "module": "Módulo A2/2025",
+        "module": "Módulo A2/2026",
         "averageGrade": null,
         "examGrade": null,
         "attendance": 80,
@@ -69,7 +70,7 @@
         "type": "REGULAR",
         "hours": 60,
         "status": "CURSANDO",
-        "module": "Módulo A2/2025",
+        "module": "Módulo A2/2026",
         "averageGrade": null,
         "examGrade": null,
         "attendance": 85,
@@ -81,7 +82,7 @@
         "type": "REGULAR",
         "hours": 60,
         "status": "AGUARDANDO_NOTA",
-        "module": "Módulo A2/2025",
+        "module": "Módulo A2/2026",
         "averageGrade": null,
         "examGrade": null,
         "attendance": 100,
@@ -93,7 +94,7 @@
         "type": "OPTATIVA",
         "hours": 40,
         "status": "AGUARDANDO_NOTA",
-        "module": "Módulo A2/2025",
+        "module": "Módulo A2/2026",
         "averageGrade": null,
         "examGrade": null,
         "attendance": 90,
@@ -105,7 +106,7 @@
         "type": "INTRODUTORIO",
         "hours": 40,
         "status": "DISPENSADA",
-        "module": "Módulo A1/2025",
+        "module": "Módulo A1/2026",
         "averageGrade": null,
         "examGrade": null,
         "attendance": null,
@@ -119,14 +120,14 @@
       {
         "id": "inv-101",
         "type": "Mensalidade",
-        "dueDate": "10/09/2025",
+        "dueDate": "10/09/2026",
         "amount": 580.00,
         "status": "VENCIDO"
       },
       {
         "id": "inv-102",
         "type": "Mensalidade",
-        "dueDate": "10/10/2025",
+        "dueDate": "10/10/2026",
         "amount": 580.00,
         "status": "EM_ABERTO"
       }
@@ -140,8 +141,8 @@
         "disciplineName": "Big Data e Processamento Distribuído",
         "title": "Apostila - Fundamentos de Big Data",
         "type": "PDF",
-        "size": "12.5 MB",
-        "uploadDate": "15/09/2025",
+        "size": "2.1 MB",
+        "uploadDate": "15/09/2026",
         "url": "/materials/big-data-fundamentos.pdf"
       },
       {
@@ -150,19 +151,19 @@
         "disciplineName": "Ciência de Dados e Analytics",
         "title": "Slides - Análise Exploratória de Dados",
         "type": "PDF",
-        "size": "8.3 MB",
-        "uploadDate": "20/09/2025",
+        "size": "0.7 MB",
+        "uploadDate": "20/09/2026",
         "url": "/materials/analise-exploratoria.pdf"
       },
       {
         "id": "mat-003",
         "disciplineId": "deep-learning",
         "disciplineName": "Deep Learning e Redes Neurais",
-        "title": "Notebook - Implementação CNN",
-        "type": "IPYNB",
-        "size": "2.1 MB",
-        "uploadDate": "10/09/2025",
-        "url": "/materials/cnn-implementation.ipynb"
+        "title": "Aula - Redes Neurais Convolucionais (Parte I)",
+        "type": "PDF",
+        "size": "14.2 MB",
+        "uploadDate": "10/09/2026",
+        "url": "/materials/cnn-implementation.pdf"
       },
       {
         "id": "mat-004",
@@ -171,7 +172,7 @@
         "title": "Dataset - Corpus de Textos em Português",
         "type": "ZIP",
         "size": "45.7 MB",
-        "uploadDate": "05/09/2025",
+        "uploadDate": "05/09/2026",
         "url": "/materials/corpus-pt.zip"
       }
     ],
@@ -220,7 +221,7 @@
       "instructor": "Prof. Dr. Carlos Silva",
       "startTime": "19:30",
       "endTime": "21:00",
-      "date": "15/11/2025",
+      "date": "15/11/2026",
       "status": "scheduled",
       "meetingUrl": "/live-class/lc-001"
     },
@@ -232,7 +233,7 @@
       "instructor": "Profa. Dra. Ana Paula Costa",
       "startTime": "20:00",
       "endTime": "21:30",
-      "date": "18/11/2025",
+      "date": "18/11/2026",
       "status": "scheduled",
       "meetingUrl": "/live-class/lc-002"
     },
@@ -244,7 +245,7 @@
       "instructor": "Prof. Dr. Roberto Mendes",
       "startTime": "19:00",
       "endTime": "20:30",
-      "date": "22/11/2025",
+      "date": "22/11/2026",
       "status": "scheduled",
       "meetingUrl": "/live-class/lc-003"
     }
@@ -257,7 +258,7 @@
       "instructor": "Profa. Dra. Mariana Santos",
       "startTime": "18:00",
       "endTime": "19:30",
-      "date": "20/11/2025",
+      "date": "20/11/2026",
       "status": "open",
       "meetingUrl": "/live-class/lc-other-001"
     },
@@ -268,7 +269,7 @@
       "instructor": "Prof. João Almeida",
       "startTime": "19:00",
       "endTime": "20:00",
-      "date": "25/11/2025",
+      "date": "25/11/2026",
       "status": "open",
       "meetingUrl": "/live-class/lc-other-002"
     }
@@ -301,14 +302,14 @@
       "type": "PROVA",
       "title": "Prova: Deep Learning e Redes Neurais",
       "description": "Prova final da disciplina de Deep Learning",
-      "date": "15/11/2025"
+      "date": "15/11/2026"
     },
     {
       "id": "ag-002",
       "type": "ENTREGA",
       "title": "Entrega: Projeto de NLP",
       "description": "Projeto final de Processamento de Linguagem Natural",
-      "date": "20/11/2025"
+      "date": "20/11/2026"
     }
   ]
 }

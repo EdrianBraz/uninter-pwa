@@ -1,0 +1,218 @@
+{
+  "ru": "999999",
+  "name": "Aluno de Demonstração",
+  "password": "demo123",
+  "cpf": "111.111.111-11",
+  "campus": "Campus Água Verde (Curitiba, PR) (EaD)",
+  "enrollmentDate": "01/03/2026",
+  "cardValidity": "31/12/2026",
+  "demoMode": true,
+  "course": {
+    "id": "tec-analise-desenvolvimento-sistemas",
+    "name": "Análise e Desenvolvimento de Sistemas",
+    "type": "GRADUACAO",
+    "duration": "24 meses",
+    "modality": "A Distância",
+    "totalHours": 480,
+    "completedHours": 180,
+    "disciplines": [
+      {
+        "id": "logica-programacao",
+        "name": "Lógica de Programação",
+        "type": "INTRODUTORIO",
+        "hours": 80,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2026",
+        "averageGrade": 90,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 90
+      },
+      {
+        "id": "banco-de-dados",
+        "name": "Banco de Dados",
+        "type": "REGULAR",
+        "hours": 100,
+        "status": "CONCLUIDA",
+        "module": "Módulo A1/2026",
+        "averageGrade": 85,
+        "examGrade": 0,
+        "attendance": 100,
+        "finalResult": 85
+      },
+      {
+        "id": "programacao-web",
+        "name": "Programação Web",
+        "type": "REGULAR",
+        "hours": 100,
+        "status": "CURSANDO",
+        "module": "Módulo A2/2026",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 90,
+        "finalResult": null
+      },
+      {
+        "id": "estrutura-de-dados",
+        "name": "Estrutura de Dados",
+        "type": "REGULAR",
+        "hours": 100,
+        "status": "CURSANDO",
+        "module": "Módulo A2/2026",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 95,
+        "finalResult": null
+      },
+      {
+        "id": "engenharia-software",
+        "name": "Engenharia de Software",
+        "type": "REGULAR",
+        "hours": 100,
+        "status": "AGUARDANDO_NOTA",
+        "module": "Módulo A2/2026",
+        "averageGrade": null,
+        "examGrade": null,
+        "attendance": 100,
+        "finalResult": null
+      }
+    ]
+  },
+  "financialStatus": {
+    "status": "ADIMPLENTE",
+    "invoices": [
+      {
+        "id": "inv-demo-001",
+        "type": "Mensalidade",
+        "dueDate": "10/10/2026",
+        "amount": 399.00,
+        "status": "PAGO"
+      }
+    ]
+  },
+  "materials": {
+    "sent": [
+      {
+        "id": "mat-demo-001",
+        "disciplineId": "programacao-web",
+        "disciplineName": "Programação Web",
+        "title": "Apostila - Fundamentos de HTML, CSS e JavaScript",
+        "type": "PDF",
+        "size": "7.2 MB",
+        "uploadDate": "15/09/2026",
+        "url": "/materials/fundamentos-web.pdf"
+      },
+      {
+        "id": "mat-demo-002",
+        "disciplineId": "estrutura-de-dados",
+        "disciplineName": "Estrutura de Dados",
+        "title": "Slides - Listas, Pilhas e Filas",
+        "type": "PDF",
+        "size": "5.4 MB",
+        "uploadDate": "20/09/2026",
+        "url": "/materials/estrutura-dados.pdf"
+      }
+    ],
+    "books": [
+      {
+        "id": "book-demo-001",
+        "disciplineId": "banco-de-dados",
+        "disciplineName": "Banco de Dados",
+        "title": "Sistemas de Banco de Dados",
+        "author": "Ramez Elmasri, Shamkant B. Navathe",
+        "publisher": "Pearson",
+        "year": 2018,
+        "isbn": "978-8543020983",
+        "coverUrl": "/books/sistemas-banco-dados.jpg"
+      },
+      {
+        "id": "book-demo-002",
+        "disciplineId": "logica-programacao",
+        "disciplineName": "Lógica de Programação",
+        "title": "Algoritmos: Lógica para Desenvolvimento de Programação",
+        "author": "José Augusto N. G. Manzano, Jayr Figueiredo de Oliveira",
+        "publisher": "Érica",
+        "year": 2019,
+        "isbn": "978-8536530321",
+        "coverUrl": "/books/algoritmos-logica.jpg"
+      }
+    ]
+  },
+  "liveClasses": [
+    {
+      "id": "lc-demo-001",
+      "disciplineId": "programacao-web",
+      "disciplineName": "Programação Web",
+      "topic": "Introdução a APIs REST",
+      "instructor": "Prof. Dr. Marcos Oliveira",
+      "startTime": "19:30",
+      "endTime": "21:00",
+      "date": "17/11/2026",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-demo-001"
+    },
+    {
+      "id": "lc-demo-002",
+      "disciplineId": "estrutura-de-dados",
+      "disciplineName": "Estrutura de Dados",
+      "topic": "Árvores Binárias de Busca",
+      "instructor": "Profa. Dra. Camila Ferreira",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "date": "20/11/2026",
+      "status": "scheduled",
+      "meetingUrl": "/live-class/lc-demo-002"
+    }
+  ],
+  "otherLiveClasses": [
+    {
+      "id": "lc-demo-other-001",
+      "courseName": "Tecnologia da Informação",
+      "topic": "Mercado de Trabalho em Desenvolvimento",
+      "instructor": "Prof. Rafael Souza",
+      "startTime": "18:30",
+      "endTime": "20:00",
+      "date": "22/11/2026",
+      "status": "open",
+      "meetingUrl": "/live-class/lc-demo-other-001"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-001",
+      "category": "ATENDIMENTO_ONLINE",
+      "unreadCount": 0
+    },
+    {
+      "id": "m-002",
+      "category": "TUTORIA",
+      "unreadCount": 1
+    },
+    {
+      "id": "m-003",
+      "category": "MENSAGENS",
+      "unreadCount": 2
+    },
+    {
+      "id": "m-004",
+      "category": "AVISOS",
+      "unreadCount": 3
+    }
+  ],
+  "agendaEvents": [
+    {
+      "id": "ag-demo-001",
+      "type": "ENTREGA",
+      "title": "Entrega: Projeto Web",
+      "description": "Projeto final da disciplina de Programação Web",
+      "date": "10/11/2026"
+    },
+    {
+      "id": "ag-demo-002",
+      "type": "PROVA",
+      "title": "Prova: Estrutura de Dados",
+      "description": "Avaliação final da disciplina",
+      "date": "18/11/2026"
+    }
+  ]
+}
